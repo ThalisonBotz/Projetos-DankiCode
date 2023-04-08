@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Supermercado App</title>
+        <link type="text/css" href="style.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <header class="lista__header">
+            <h2>App Lista de Supermercado</h2>
+        </header>
+        <div class="lista">
+            <div class="lista__cadastro">
+                <input type="text" placeholder="nome do produto..." name="nome_produto"/>
+                <input type="number" step="0.01" placeholder="valor do produto..." name="valor_produto"/>
+                <input type="submit" class="cadastrar" nome="enviar" value="cadastrar"/>
+            </div>
+            <div class="lista__produtos">
+                
+            </div>
+            <div class="valor__total">
+                <h2>Total: R$:</h2>
+                <h2 id="total">00,00</h2>
+            </div>
+            <button name="limpar">Limpar Carrinho</button>
+        </div>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>

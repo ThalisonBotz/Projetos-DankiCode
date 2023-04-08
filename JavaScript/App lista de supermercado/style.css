@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.lista {
+    margin: 0 20px;
+}
+.lista__header{
+    background-color: rgb(187, 255, 0);
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+}
+.lista__header h2{
+    font-size: 36px;
+}
+.cadastrar{
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 150px;
+    font-size: 16px;
+    color: white;
+    background-color: greenyellow;
+    cursor: pointer;
+}
+.lista__cadastro {
+    display: flex;
+    margin: 20px 0;
+}
+.lista__cadastro input[type=text],
+.lista__cadastro input[type=number]{
+    flex: 1;
+    height: 40px;
+    padding-left: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+.lista__produto{
+    padding: 10px 0;
+    border: 1px solid #ccc;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+.lista__produtos {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.lista__produto h3{
+    display: flex;
+    padding: 0 20px;
+}
+.produto__preço{
+    text-align: right;
+    font: 17px;
+}
+.produto__preço > span{
+    background-color: greenyellow;
+    padding: 8px 10px;
+    border-radius: 20px;
+    color: white;
+}
+.valor__total{
+    display: flex;
+    margin-top: 20px;
+}
