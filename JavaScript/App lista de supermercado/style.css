@@ -71,3 +71,11 @@
     display: flex;
     margin-top: 20px;
 }
+.limpar{
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    padding: 4px;
+    background: #f54f4f;
+}
