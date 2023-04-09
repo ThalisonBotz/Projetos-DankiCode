@@ -1,0 +1,19 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.app__header{
+    text-align: center;
+}
+.player__options,
+.enemy__options{
+    display: flex;
+}
+.enemy__options img,
+.player__options img{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.player__options img:hover{
+    opacity: 1;
+}
